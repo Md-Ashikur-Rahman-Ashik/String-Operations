@@ -69,7 +69,7 @@ int main()
         /* code */
         printf("Both strings are equal");
     }
-    else if (compare == -1)
+    else if (compare < 0)
     {
         printf("%s is greater than %s", secondString, firstString);
     }
